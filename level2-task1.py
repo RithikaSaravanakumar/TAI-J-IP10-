@@ -30,9 +30,9 @@ def main():
 
     # Validate the card number
     if validate_credit_card(card_number):
-        print("The card number is valid.")
+        print("TRUE The card number is valid.")
     else:
-        print("The card number is invalid.")
+        print("FALSE The card number is invalid.")
 
 if __name__ == "__main__":
     main()
